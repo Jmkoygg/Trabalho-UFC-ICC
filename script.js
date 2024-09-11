@@ -20,4 +20,4 @@ document.getElementById("meuFormulario").addEventListener("submit", function(eve
         document.getElementById("Localidade").textContent=data.localidade;}
     catch(error){
         alert(`Erro: ${error.message}`);
-    }}
+    }}
