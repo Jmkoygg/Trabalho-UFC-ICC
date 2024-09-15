@@ -198,22 +198,6 @@ button{
 
 }
 
-.resultadoprevisao{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 1200px;
-    height: 75px;
-    border: 2px solid #0C70F2;
-    border-radius: 30px;
-    & h3{
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 24px;
-    }
-}
-
 footer{
     margin-top: 100px;
     display: flex;
