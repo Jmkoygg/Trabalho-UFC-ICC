@@ -2,14 +2,6 @@
 
 UFC-Map é uma aplicação web que permite aos usuários descobrir endereços a partir de CEPs (Códigos de Endereçamento Postal) no Brasil. O projeto visa facilitar a busca por informações de localização, tornando o processo rápido e eficiente.
 
-## 🔑Índice
-
-- [Características](#características)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-
 ## 🕶Características
 
 - Busca de endereços a partir de CEPs.
