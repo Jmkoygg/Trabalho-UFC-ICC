@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC-Map</title>
+    <link rel="shortcut icon" type="imagex/png" href="Clouds.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="headerContainer">
+            <h1>UFC-Map</h1>
+            <div id="headerS">
+                <a href="#cep"><h3>Endereços</h3></a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="Mid-Container">
+        <div><h1>Descubra Mais com Precisão:<br>Digite seus CEPS<br>veja seus endereços.</h1></div>
+        <div></div><img src="/imgs/Ufc.png" alt="UFC"></div>
+        </div>
+    </section>
+    <section id="mid">
+        <div class="card">
+        <div class="card-center">
+            <form id="meuFormulario" action="">
+            <div class="input-container">
+            <label for="Nome">Primeiro nome:</label>
+            <input class="input1" type="text" placeholder="Insira seu primeiro nome:">
+            </div>
+            <div class="input-container">
+                <label for="E-mail">E-mail:</label>
+                <input class="input1" type="email" placeholder="Insira seu e-mail:">
+            </div>
+            <div class="input-container">
+                <label for="CEP">Digite o CEP:</label>
+                <input id="CEPinput" class="input1" type="text" pattern="^\d{5}-?\d{3}$" placeholder="Insira o CEP:" oninvalid="this.setCustomValidity('Por favor, insira um CEP válido.')"
+                oninput="this.setCustomValidity('')" required>
+            </div>
+            </div>
+            <button onclick="getCEP()" type="submit">Acessar</button>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section id="resultado">
+        <div class="separa"></div>
+        <div class="cep" id="cep">
+            <div id="title"><h2>Resultado da busca por CEP:</h2><img width="150px" src="/imgs/Loc.png" alt="Ponto"></div>
+            <div class="resultadocep">
+            <div id="blueside">
+            <h3>Rua/Logadouro</h3>
+            <h3>Bairro/Distrito</h3>
+            <h3>Cidade/UF</h3>
+            </div>
+            <div id="whiteside">
+            <h3 id="Logradouro"></h3>
+            <h3 id="Bairro"></h3>
+            <h3 id="Localidade"></h3>
+            </div>
+            </div>
+        </div>
+        <div class="separa"></div>
+    </section>
+    <footer><h3>Termos de Uso | Política de Privacidade</h3></footer>
+    <script src="script.js"></script>
+</body>
+</html>

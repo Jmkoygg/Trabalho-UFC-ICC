@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2F2F2;
+}
+
+
+header{
+    width: 100vw;
+    height: 6.5rem;
+    background-color: #0C70F2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    padding: 0 3.5rem 0 3.5rem;
+    
+
+}
+#headerS{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    & h3{
+        color: white;
+        padding: 20px;
+    }    
+}
+
+#Mid-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px 0 0;
+    & h1{
+       font-weight:800;
+       font-size: 40px;
+    }
+    & div{
+        padding: 30px;
+    }
+}
+
+#mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.card{
+    background-color: white;
+    width: 50%;
+    height: 43rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-center{
+    width: 70%;
+    height: 80%;
+    margin-top: 60px;
+}
+
+.input-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    &  label{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    }
+    & .input1{width: 95%;}
+    & input{
+        background-color: #F2F2F2E5;
+        height: 56px;
+        border-radius: 10px;
+        padding: 0 0 0 30px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+    & .input2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     & input{
+        width: 40%;
+     }
+    }
+}
+button{
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 80%;
+    height: 4rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #0C70F2E5;
+    box-shadow: 0px 5px 10px rgba(0, 8, 255, 0.2);
+
+    &:hover{
+        transition: .2s;
+        transform: scale(1.01);
+        background-color: #398cf9;
+    }
+}
+
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.separa{
+    margin-top: 100px;
+}
+.cep{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    gap: 20px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    & h2{
+        margin-top: 70px;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+#blueside{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #0C70F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1200px;
+    height: 80px;
+    border-radius: 30px 30px 0 0;
+    & h3{
+        width: 33%;
+        text-align: center;
+    }
+}
+#whiteside{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 1200px;
+    height: 80px;
+    border-radius: 0 0 30px 30px;
+    & h3{
+        width: 33%;
+        text-align: center;
+    }
+
+}
+
+.resultadoprevisao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1200px;
+    height: 75px;
+    border: 2px solid #0C70F2;
+    border-radius: 30px;
+    & h3{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    background-color: #0C70F2;
+    width: 100%;
+    height: 70px;
+    & h3{
+        padding: 0 30px 0 0;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    #headerS {
+        margin-top: 10px;
+    }
+    #headerContainer {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    #Mid-Container {
+        flex-direction: column; 
+        padding: 50px 20px; 
+    }
+
+    .card {
+        width: 90%; 
+        height: auto; 
+    }
+
+    .input-container label {
+        font-size: 20px; 
+    }
+
+    button {
+        font-size: 1.5rem; 
+        height: 3rem; 
+    }
+
+    #resultado {
+        flex-direction: column;
+    }
+
+    #blueside, #whiteside {
+        flex-direction: column;
+        align-items: center;
+        width: 70vw; 
+        height: 30vh;
+    }
+
+    #blueside h3, #whiteside h3 {
+        width: auto;
+        text-align: center;
+        margin: 5px 0;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    #title{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #headerContainer h1 {
+        font-size: 1.5rem;
+    }
+
+    .input-container label {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 1.2rem; 
+        height: 2.5rem;
+    }
+
+    #title h2 {
+        font-size: 30px; 
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    footer h3 {
+        font-size: 1rem;
+    }
+
+    #blueside, #whiteside {
+        padding: 10px;
+    }
+}
