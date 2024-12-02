@@ -26,11 +26,12 @@ UFC-Map é uma aplicação web que permite aos usuários descobrir endereços a 
 # 🧭Uso
 
 https://jmkoygg.github.io/Trabalho-UFC-ICC/
+
 Ao abrir a aplicação, você verá um campo para inserir o CEP, seu primeiro nome e seu e-mail.
 Insira um CEP válido e clique no botão "Acessar".
 Os resultados da busca serão exibidos logo abaixo.
 
 # 🤝Contribuição
-Calebe Cefas
-Katarine Torres
+Calebe Cefas,
+Katarine Torres e
 Érico Portela
